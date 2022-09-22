@@ -1,0 +1,58 @@
+
+body {
+    font-family: 'Verdana', 'Arial';
+    margin: 25px 25px 0;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: #0000ff;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 24px;
+    padding: 0 0 15px 15px;
+}
+
+img {
+    width: 350px;
+    border: 10px dashed #000;
+}
+
+div {
+    min-height: 100px;
+    padding: 20px;
+    border: 3px solid #ffffff;
+}
+
+div.red {
+    background-color: #FF7F7F;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 3px 10px; /*I decided on border-width because the instructions didn't specify a different
+    color or border style other than what we were directed to do for all div elements. I think "border" needs three
+    arguments -- pixels/width, style, and color*/
+}
+
+div.blue {
+    background-color: #87C1FF;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 0 10px 3px 0;
+}
+
+span {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,255,1) 25%, rgba(0,102,255,1) 70%, rgba(0,0,0,1) 100%);
+}
